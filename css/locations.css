@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Header ===== */
+
+.header {
+    position: sticky;
+    top: 0;
+    background: #1A1A1A;
+    width: 100%;
+    height: 3.875rem;
+    font-family: 'Roboto', sans-serif;
+    z-index: 4;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.option {
+    margin-right: 2rem;
+    list-style-type: none;
+    color: #F6EFE1;
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 3.875rem;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.link {
+    color: #F6EFE1;
+}
+
+.lang-wrapper {
+    margin-right: 2rem;
+    line-height: 4.1rem;
+}
+
+.rectangle {
+    position: relative;
+    left: 0.341rem;
+    bottom: 0.213rem;
+}
+
+.white-line {
+    height: 0.13rem;
+    width: 100%;
+}
+
+.logo-wrapper, .options-wrapper {
+    display: inline-block;
+}
+
+.logo-wrapper {
+    margin-left: 5%;
+    margin-top: 0.7rem;
+}
+
+.options-wrapper {
+    margin-left: 15%;
+}
+
+/* ===== Title ===== */
+
+.title-wrapper {
+    position: relative;
+    width: 100%;
+    height: 8.375rem;
+    background: #1A1A1A;
+}
+
+.locations-title {
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 4.375rem;
+    text-transform: uppercase;
+    color: #F6EFE1;
+    margin-left: 5%;
+    position: relative;
+    top: 2rem;
+}
+
+/* ======== TABLE ======== */
+
