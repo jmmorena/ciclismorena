@@ -19,6 +19,7 @@
 .menu-list {
     display: flex;
     flex-direction: row;
+    
 }
 
 .option {
@@ -59,12 +60,12 @@
 }
 
 .logo-wrapper {
-    margin-left: 5%;
+    margin-left: 7%;
     margin-top: 0.7rem;
 }
 
 .options-wrapper {
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 /* ===== Title ===== */
@@ -84,10 +85,148 @@
     line-height: 4.375rem;
     text-transform: uppercase;
     color: #F6EFE1;
-    margin-left: 5%;
+    margin-left: 7%;
     position: relative;
     top: 2rem;
 }
 
 /* ======== TABLE ======== */
 
+.table-section {
+    width: 100%;
+    height: 34.56rem;
+    background-image: url('/images/Group-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.table-title {
+    margin-left: 7%;
+    position: relative;
+    top: 1.438rem;
+}
+
+.sort-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #1A1A1A;
+    display: inline-block;
+    position: relative;
+    bottom: 0.18rem;
+    margin-left: 0.37rem;
+}
+
+.triangle {
+    fill: #1A1A1A;
+}
+
+.surface {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.table {
+    position: relative;
+    top: 3.875rem;
+    height: 28.06rem;
+    width: 86%;
+    background-color: white;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+/* ===== ADDITIONAL INFO =====*/
+
+.info {
+    background: #1A1A1A;
+    height: 30.63rem;
+    width: 100%;
+}
+
+.info-title {
+    font-family: 'Anton',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.188rem;
+    text-transform: uppercase;
+    color: #F6EFE1;
+    position: relative;
+    top: 2.063rem;
+    margin-left: 7%;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-right: 7%;
+    position: relative;
+    top: 4rem;
+}
+
+.google-maps-wrapper {
+    width: 50%;
+}
+
+.google-earth-wrapper {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.item {
+    color: #F6EFE1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.google-maps-title, .google-earth-title{
+    margin-bottom: 2rem;
+}
+
+.last-item{
+    margin-top: 2rem;
+}
+
+/* ===== Footer ===== */
+
+.footer {
+    position: relative;
+    height: 3.75rem;
+    background: #1A1A1A;
+}
+
+.footer-container{
+    position: relative;
+    top: 1.188rem;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+    color: #F6EFE1;
+}
+
+.sm{
+    margin-right: 1.5rem;
+}
+
+.white-line3 {
+    width: 100%;
+    position: relative;
+    height: 8px;
+    background: #F6EFE1;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
