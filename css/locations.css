@@ -19,7 +19,6 @@
 .menu-list {
     display: flex;
     flex-direction: row;
-    
 }
 
 .option {
@@ -148,7 +147,7 @@
 }
 
 .info-title {
-    font-family: 'Anton',sans-serif;
+    font-family: 'Anton', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -185,11 +184,11 @@
     font-size: 1rem;
 }
 
-.google-maps-title, .google-earth-title{
+.google-maps-title, .google-earth-title {
     margin-bottom: 2rem;
 }
 
-.last-item{
+.last-item {
     margin-top: 2rem;
 }
 
@@ -201,7 +200,7 @@
     background: #1A1A1A;
 }
 
-.footer-container{
+.footer-container {
     position: relative;
     top: 1.188rem;
     margin-left: 7%;
@@ -219,7 +218,7 @@
     color: #F6EFE1;
 }
 
-.sm{
+.sm {
     margin-right: 1.5rem;
 }
 
@@ -229,4 +228,47 @@
     height: 8px;
     background: #F6EFE1;
     transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/* ======= Why Argentina ======= */
+
+.why-arg {
+    position: relative;
+    height: 22rem;
+    background: #1A1A1A;
+}
+
+.text-container {
+    margin-left: 7%;
+    margin-right: 7%;
+    position: relative;
+    top: 0.3rem;
+}
+
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #F6EFE1;
+}
+
+.parag{
+    margin-top: 1.5rem;
+}
+
+/*====== Highest Point ======*/
+
+.highest-point{
+    position: relative;
+    height: 42rem;
+    background: #1A1A1A;
+}
+
+.highest-table{
+    height: 30.62rem;
+    background: #F6EFE1;
+    margin-left: 7%;
+    margin-right: 7%;
 }
