@@ -259,6 +259,10 @@
     border: solid 1px #f6efe1;
 }
 
+.send-btn:hover{
+    background: rgba(246, 239, 225, 0.2);
+}
+
 .send-text {
     font-family: 'Roboto', sans-serif;
     color: #F6EFE1;

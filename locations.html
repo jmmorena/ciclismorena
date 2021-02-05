@@ -16,7 +16,7 @@
         <div id='menu' class='menu'>
             <ul id='menu-list' class='menu-list'>
                 <div class='logo-wrapper'>
-                    <img src='./images/Logo/Badge.svg' alt='Logo ACC'>
+                    <a href='index.html'><img src='./images/Logo/Badge.svg' alt='Logo ACC'></a>
                 </div>
                 <div class='options-wrapper'>
                     <li id='option1' class='option'><a class='link' href='locations.html'>LOCATIONS AND ALTIMETRY</a>
@@ -40,12 +40,24 @@
     <section class='table-section' id='table-section'>
         <div class='table-title'>
             <img src='./images/Sort.svg' class='sort-icon'>
-            <h3 class='sort-title'>Sort climbs by <span class='surface'>Surface</span></h3>
+            <div class='surface-wrapper' id='surface-wrapper'>
+                <h3 class='sort-title'>Sort climbs by <span class='surface'>Surface</span></h3>
+                <img class='triangle-icon' src='./images/triangle.png'>
+            </div>
+            <div class='sub-menu' id='sub-menu'>
+                <div class='sub-menu-wrapper'>
+                    <h4 class='table-option' id='height-option'>Height at finish</h4>
+                    <h4 class='table-option' id='gradient-option'>Average gradient</h4>
+                    <h4 class='table-option' id='length-option'>Length</h4>
+                    <h4 class='table-option' id='elevation-option'>Absolute elevation gain</h4>
+                </div>
+            </div>
         </div>
+        
 
-        <div class='table'>
-
-        </div>
+            <div class='table'>
+                <iframe id='table-frame' class='table-frame' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSnxz1u28dW94Mt6dhFRzg2aWUlZ6RYcHeUq2IFu4igu6mQ0RCpTLldqrB6KINYrg/pubhtml?widget=true&amp;headers=false"></iframe>
+            </div>
     </section>
     <section id='additional-info' class='info'>
         <h3 class='info-title'>How to visualize climb in Google Maps & Earth</h3>
@@ -97,7 +109,7 @@
             </div>
         </div>
     </section>
-
+<script src='./scripts/scripts.js'></script>
 </body>
 
 </html>
