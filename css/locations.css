@@ -160,6 +160,11 @@
     line-height: 1.188rem;
     text-decoration-line: underline;
     color: #F6EFE1;
+    display: inline-block;
+}
+
+.table-option{
+    cursor: pointer;
 }
 
 .table {
