@@ -75,25 +75,25 @@
     <div class='white-line2'></div>
     <section id='contact' class='contact'>
         <h3 id='contact-title' class='contact-title'>CONTACT US</h3>
-        <form id='form' class='form'>
+        <form id='form' action='form.php' method="POST" class='form'>
             <div class='name-email-wrapper'>
                 <div class='wrapper-input'>
-                    <label class='label-nameEmail'>Your name</label>
-                    <input type='text' class='input-nameEmail'>
+                    <label for='name' class='label-nameEmail'>Your name</label>
+                    <input type='text' name='name' class='input-nameEmail' required>
                 </div>
                 <div class='wrapper-input'>
-                    <label class='label-nameEmail'>Your e-mail</label>
-                    <input type='text' class='input-nameEmail'>
+                    <label for='email' class='label-nameEmail'>Your e-mail</label>
+                    <input type='text' name='email' class='input-nameEmail' required>
                 </div>
             </div>
             <div class='wrapper-input2'>
-                <label class='label-nameEmail'>Your message</label>
-                <textarea type='text' class='input-message'></textarea>
+                <label for='message' class='label-nameEmail'>Your message</label>
+                <textarea type='text' name='message' class='input-message' required></textarea>
             </div>
-            <div class='send-btn'>
+            <button type='submit' class='send-btn'>
                 <h4 class='send-text'>Send</h4>
                 <img class='send-img' src='./images/Vector.svg' alt='Paper Plane Icon'>
-            </div>
+            </button>
         </form>
     </section>
     <div class='white-line3'></div>
@@ -109,6 +109,7 @@
             </div>
         </div>
     </section>
+     
 </body>
 
 </html>
