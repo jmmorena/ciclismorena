@@ -19,7 +19,8 @@
 .menu-list {
     display: flex;
     flex-direction: row;
-    margin-left: 23%;
+    justify-content: flex-end;
+    margin-right: 7%;
 }
 
 .option {
@@ -35,9 +36,10 @@
     text-transform: uppercase;
 }
 
-.link{
+.link {
     color: #F6EFE1;
 }
+
 .lang-wrapper {
     margin-right: 2rem;
     line-height: 4.1rem;
@@ -66,7 +68,7 @@
 
 .img-title {
     margin-top: 2rem;
-    margin-left: 4.875rem;
+    margin-left: 7%;
 }
 
 .byciclis {
@@ -137,6 +139,22 @@
     margin-left: 7%;
     margin-right: 7%;
 }
+
+.links-index {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.188rem;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f6efe1;
+    display: flex;
+    flex-direction: row;
+}
+
 
 .option-second-menu {
     font-family: 'Roboto', sans-serif;
@@ -224,7 +242,7 @@
     padding: 0.5rem;
 }
 
-.input-nameEmail:focus{
+.input-nameEmail:focus {
     color: #f6efe1;
     padding: 0.5rem;
 }
@@ -262,7 +280,7 @@
     background: rgba(255, 255, 255, 0);
 }
 
-.send-btn:hover{
+.send-btn:hover {
     background: rgba(246, 239, 225, 0.2);
     cursor: pointer;
 }
@@ -299,7 +317,7 @@
     background: #1A1A1A;
 }
 
-.footer-container{
+.footer-container {
     position: relative;
     top: 1.188rem;
     margin-left: 7%;
@@ -317,6 +335,6 @@
     color: #F6EFE1;
 }
 
-.sm{
+.sm {
     margin-right: 1.5rem;
 }
