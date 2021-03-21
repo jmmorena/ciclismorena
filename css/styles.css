@@ -336,5 +336,6 @@
 }
 
 .sm {
-    margin-right: 1.5rem;
+    position: relative;
+    right: 30%;
 }
