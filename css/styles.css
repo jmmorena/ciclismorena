@@ -335,7 +335,6 @@
     color: #F6EFE1;
 }
 
-.sm {
-    position: relative;
-    right: 30%;
+.sm{
+    margin-right: 1.5rem;
 }
