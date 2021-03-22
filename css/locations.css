@@ -293,7 +293,7 @@
 
 .paragraphs-wrapper {
     position: relative;
-    margin-top: 5.5%;
+    margin-top: 5%;
     margin-left: 7%;
     margin-right: 7%;
 }
@@ -302,6 +302,11 @@
     margin-bottom: 2%;
 }
 
+@media only screen and (min-width: 1367px) {
+    .paragraphs-wrapper {
+        margin-top: 3.5%;
+    }
+}
 /* ======= Why Argentina ======= */
 
 .why-arg {
