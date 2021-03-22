@@ -290,6 +290,9 @@
 
 /* ============ Criteria ============ */
 
+.criteria1{
+    cursor: pointer;
+}
 
 .paragraphs-wrapper {
     position: relative;
