@@ -355,3 +355,83 @@
     margin-left: 7%;
     margin-right: 7%;
 }
+
+/* =========== Contact Message =========== */
+.thank-you-message{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.25rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f6efe1;
+    text-transform: uppercase;
+}
+
+.in-touch{
+    font-family: 'Roboto', sans-serif;
+    color: #f6efe1;
+    font-size: 1rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1.7%;
+}
+
+.message-section{
+    background-color: #1a1a1a;
+    height: 79vh;
+
+}
+
+.contact-message-wrapper{
+    position: relative;
+    top: 7%;
+}
+
+.send-btn {
+    position: relative;
+    width: 8rem;
+    height: 2.5rem;
+    /*margin: 1.65rem 22.875rem 0 0.125rem;*/
+    padding: 0.625rem 1rem;
+    border-radius: 4px;
+    border: solid 1px #f6efe1;
+    background: rgba(255, 255, 255, 0);
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.send-btn:hover {
+    background: rgba(246, 239, 225, 0.2);
+    cursor: pointer;
+}
+
+.send-text {
+    font-family: 'Roboto', sans-serif;
+    color: #F6EFE1;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    display: inline;
+}
+
+.send-img {
+    position: relative;
+    top: 0.07rem;
+    right: 7%;
+}
+
+
+@media only screen and (min-width: 1367px) {
+    .message-section{
+        height: 86.5vh;
+    }
+}
