@@ -290,7 +290,7 @@
 
 /* ============ Criteria ============ */
 
-.criteria1{
+.criteria1 {
     cursor: pointer;
 }
 
@@ -301,7 +301,7 @@
     margin-right: 7%;
 }
 
-.p1{
+.p1 {
     margin-bottom: 2%;
 }
 
@@ -310,6 +310,7 @@
         margin-top: 3.5%;
     }
 }
+
 /* ======= Why Argentina ======= */
 
 .why-arg {
@@ -357,7 +358,8 @@
 }
 
 /* =========== Contact Message =========== */
-.thank-you-message{
+
+.thank-you-message {
     font-family: 'Anton', sans-serif;
     font-size: 2.25rem;
     font-weight: normal;
@@ -370,7 +372,7 @@
     text-transform: uppercase;
 }
 
-.in-touch{
+.in-touch {
     font-family: 'Roboto', sans-serif;
     color: #f6efe1;
     font-size: 1rem;
@@ -384,13 +386,12 @@
     margin-top: 1.7%;
 }
 
-.message-section{
+.message-section {
     background-color: #1a1a1a;
     height: 79vh;
-
 }
 
-.contact-message-wrapper{
+.contact-message-wrapper {
     position: relative;
     top: 7%;
 }
@@ -429,9 +430,76 @@
     right: 7%;
 }
 
+@media only screen and (min-width: 1367px) {
+    .message-section {
+        height: 86.5vh;
+    }
+}
+
+/* ========== ABOUT ===========*/
+
+.about {
+    background-image: url('/images/Group-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 4rem;
+    height: 40rem;
+}
+
+.pp1 {
+    color: #1A1A1A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.about-wrapper{
+    margin-left: 7%;
+    width: 45%;
+}
+
+.about-photo-wrapper{
+    width: 45%;
+}
+
+.signature{
+    margin-top: 5%;
+}
+
+.other-links{
+    text-decoration: underline;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+.nodecor{
+    text-decoration: none;
+    color: #1A1A1A;
+}
 
 @media only screen and (min-width: 1367px) {
-    .message-section{
-        height: 86.5vh;
+    .footer{
+        height: 5rem;
+    }
+
+    .about-container{
+        top: 6rem;
+        height: 45rem;
+    }
+
+    .footer-container{
+        top: 2rem;
     }
 }

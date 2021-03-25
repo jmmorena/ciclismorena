@@ -78,7 +78,7 @@
 
 .welcome {
     position: relative;
-    height: 25rem;
+    height: 21rem;
     background-image: url('/images/BG-Welcome.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@
     margin-top: 1.5rem;
     position: relative;
     margin-left: 7%;
-    max-width: 70%;
+    max-width: 65%;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: normal;
