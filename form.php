@@ -4,11 +4,11 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 //Datos para el correo
-$destinatario = "agosbarbenza@gmail.com";
+$destinatario = "ciclismorena@gmail.com";
 $asunto = "Mail desde Ciclismorena";
 
-$carta = "From: $name \n ";
-$carta .= "Email: $email \n";
+$carta = "From: $name \n";
+$carta .= "E-mail: $email \n";
 $carta .= "Message: $message \n";
 
 mail($destinatario, $asunto, $carta);
